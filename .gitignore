@@ -1,2 +1,42 @@
-dados_dmidecode
-.history
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Pastas
+.history/
+__pycache__/
+
+# Arquivos de ambiente
+.env
+.env.*
+.envrc
+
+# Arquivos de cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos gerados
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+docs/_build/
+.idea/
+
+# Arquivos de registro
+*.log
+logs/
+log/
+LOG/
+*.swp
+*~
+
+# Outros
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+dados_dmidecode.json
